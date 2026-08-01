@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OpenPLC Runtime source clone
+tools/OpenPLC_v3/
+
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+
+# Packet captures are excluded by default
+results/*.pcap
+results/*.pcapng
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Microsoft Office temporary files
+~$*
+report/~$*
+
+# Temporary files
+*.tmp
+*.bak
