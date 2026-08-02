@@ -30,7 +30,7 @@
 ## OpenPLC Runtime
 
 - Runtime version: OpenPLC Runtime v3
-- Repository commit:
+- Repository commit: b5d41356dab4aeadca0dd7ca64ba542f870b595d
 - Docker image name: `openplc-v3-local`
 - Docker container name: `openplc-v3`
 - Web interface: `http://127.0.0.1:8080`

@@ -29,3 +29,6 @@ report/~$*
 # Temporary files
 *.tmp
 *.bak
+# Verbose OpenPLC build logs retained locally
+notes/openplc_*_build.txt
+notes/openplc_build_failure_tail.txt

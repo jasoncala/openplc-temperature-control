@@ -1,0 +1,11 @@
+﻿[
+    {
+        "CreatedAt": "2026-08-01T19:26:14Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/openplc-v3-data/_data",
+        "Name": "openplc-v3-data",
+        "Options": null,
+        "Scope": "local"
+    }
+]

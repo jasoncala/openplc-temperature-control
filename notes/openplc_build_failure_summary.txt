@@ -1,0 +1,122 @@
+﻿
+  notes\openplc_corrected_build.txt:1373:itsdangerous, greenlet, click, blinker, werkzeug, sqlalchemy, pymodbus, 
+Jinja2, flask, flask_sqlalchemy, flask-login, 
+  notes\openplc_corrected_build.txt:1374:flask_jwt_extended
+  notes\openplc_corrected_build.txt:1375:#9 31.73 
+  notes\openplc_corrected_build.txt:1376:#9 31.73 Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 PyJWT-2.13.0 
+blinker-1.9.0 click-8.4.2 flask-2.3.3 
+  notes\openplc_corrected_build.txt:1377:flask-login-0.6.2 flask_jwt_extended-4.7.4 flask_sqlalchemy-3.1.1 
+greenlet-3.5.4 itsdangerous-2.2.0 pymodbus-2.5.3 
+  notes\openplc_corrected_build.txt:1378:pyserial-3.5 python-dotenv-1.2.2 six-1.17.0 sqlalchemy-2.0.51 
+typing-extensions-4.16.0 werkzeug-2.3.7
+  notes\openplc_corrected_build.txt:1379:#9 31.78 /usr/bin/python3: No module named pip
+  notes\openplc_corrected_build.txt:1380:#9 31.78 [MATIEC COMPILER]
+> notes\openplc_corrected_build.txt:1381:#9 32.97 configure.ac:72: error: '\
+  notes\openplc_corrected_build.txt:1382:' is already registered with AC_CONFIG_FILES.
+  notes\openplc_corrected_build.txt:1383:#9 32.97 ./lib/autoconf/status.m4:289: AC_CONFIG_FILES is expanded from...
+  notes\openplc_corrected_build.txt:1384:#9 32.97 configure.ac:72: the top level
+> notes\openplc_corrected_build.txt:1385:#9 32.97 autom4te: error: /usr/bin/m4 failed with exit status: 1
+> notes\openplc_corrected_build.txt:1386:#9 32.97 aclocal: error: /usr/bin/autom4te failed with exit status: 1
+> notes\openplc_corrected_build.txt:1387:#9 32.97 autoreconf: error: aclocal failed with exit status: 1
+> notes\openplc_corrected_build.txt:1388:#9 32.97 ./background_installer.sh: line 124: ./configure: No such file or 
+directory
+> notes\openplc_corrected_build.txt:1389:#9 32.97 make: *** No targets specified and no makefile found.  Stop.
+> notes\openplc_corrected_build.txt:1390:#9 32.97 cp: cannot stat './iec2c': No such file or directory
+> notes\openplc_corrected_build.txt:1391:#9 32.97 Error compiling MatIEC
+> notes\openplc_corrected_build.txt:1392:#9 32.97 OpenPLC was NOT installed!
+> notes\openplc_corrected_build.txt:1393:#9 ERROR: process "/bin/sh -c sed -i '2i set -o pipefail' /workdir/install.sh 
+    && ./install.sh docker     && test 
+  notes\openplc_corrected_build.txt:1394:-x /workdir/start_openplc.sh     && touch /docker_persistent/mbconfig.cfg     
+&& touch 
+  notes\openplc_corrected_build.txt:1395:/docker_persistent/persistent.file     && mkdir -p 
+/docker_persistent/st_files     && cp /workdir/webserver/openplc.db 
+  notes\openplc_corrected_build.txt:1396:        /docker_persistent/openplc.db     && mv /workdir/webserver/openplc.db 
+        
+  notes\openplc_corrected_build.txt:1397:/workdir/webserver/openplc_default.db     && cp /workdir/webserver/dnp3.cfg   
+      /docker_persistent/dnp3.cfg     && 
+  notes\openplc_corrected_build.txt:1398:mv /workdir/webserver/dnp3.cfg         /workdir/webserver/dnp3_default.cfg    
+ && cp -r /workdir/webserver/st_files/.  
+  notes\openplc_corrected_build.txt:1399:       /docker_persistent/st_files/     && mv /workdir/webserver/st_files     
+    /workdir/webserver/st_files_default  
+  notes\openplc_corrected_build.txt:1400:   && cp /workdir/webserver/active_program         
+/docker_persistent/active_program     && mv 
+  notes\openplc_corrected_build.txt:1401:/workdir/webserver/active_program         
+/workdir/webserver/active_program_default     && ln -s 
+  notes\openplc_corrected_build.txt:1402:/docker_persistent/mbconfig.cfg         /workdir/webserver/mbconfig.cfg     
+&& ln -s 
+  notes\openplc_corrected_build.txt:1403:/docker_persistent/persistent.file         /workdir/webserver/persistent.file 
+    && ln -s 
+  notes\openplc_corrected_build.txt:1404:/docker_persistent/openplc.db         /workdir/webserver/openplc.db     && ln 
+-s /docker_persistent/dnp3.cfg         
+  notes\openplc_corrected_build.txt:1405:/workdir/webserver/dnp3.cfg     && ln -s /docker_persistent/st_files         
+/workdir/webserver/st_files     && ln -s 
+  notes\openplc_corrected_build.txt:1417:/workdir/webserver/active_program         
+/workdir/webserver/active_program_default     && ln -s 
+  notes\openplc_corrected_build.txt:1418:/docker_persistent/mbconfig.cfg         /workdir/webserver/mbconfig.cfg     
+&& ln -s 
+  notes\openplc_corrected_build.txt:1419:/docker_persistent/persistent.file         /workdir/webserver/persistent.file 
+    && ln -s 
+  notes\openplc_corrected_build.txt:1420:/docker_persistent/openplc.db         /workdir/webserver/openplc.db     && ln 
+-s /docker_persistent/dnp3.cfg         
+  notes\openplc_corrected_build.txt:1421:/workdir/webserver/dnp3.cfg     && ln -s /docker_persistent/st_files         
+/workdir/webserver/st_files     && ln -s 
+  notes\openplc_corrected_build.txt:1422:/docker_persistent/active_program         /workdir/webserver/active_program:
+  notes\openplc_corrected_build.txt:1423:32.97 ./lib/autoconf/status.m4:289: AC_CONFIG_FILES is expanded from...
+  notes\openplc_corrected_build.txt:1424:32.97 configure.ac:72: the top level
+> notes\openplc_corrected_build.txt:1425:32.97 autom4te: error: /usr/bin/m4 failed with exit status: 1
+> notes\openplc_corrected_build.txt:1426:32.97 aclocal: error: /usr/bin/autom4te failed with exit status: 1
+> notes\openplc_corrected_build.txt:1427:32.97 autoreconf: error: aclocal failed with exit status: 1
+> notes\openplc_corrected_build.txt:1428:32.97 ./background_installer.sh: line 124: ./configure: No such file or 
+directory
+> notes\openplc_corrected_build.txt:1429:32.97 make: *** No targets specified and no makefile found.  Stop.
+> notes\openplc_corrected_build.txt:1430:32.97 cp: cannot stat './iec2c': No such file or directory
+> notes\openplc_corrected_build.txt:1431:32.97 Error compiling MatIEC
+> notes\openplc_corrected_build.txt:1432:32.97 OpenPLC was NOT installed!
+  notes\openplc_corrected_build.txt:1433:------
+  notes\openplc_corrected_build.txt:1434:OpenPLC_v3.Dockerfile:14
+  notes\openplc_corrected_build.txt:1435:--------------------
+  notes\openplc_corrected_build.txt:1436:  13 |     # as successful merely because tee exited successfully.
+  notes\openplc_corrected_build.txt:1437:  14 | >>> RUN sed -i '2i set -o pipefail' /workdir/install.sh \
+  notes\openplc_corrected_build.txt:1438:  15 | >>>     && ./install.sh docker \
+  notes\openplc_corrected_build.txt:1439:  16 | >>>     && test -x /workdir/start_openplc.sh \
+  notes\openplc_corrected_build.txt:1440:  17 | >>>     && touch /docker_persistent/mbconfig.cfg \
+  notes\openplc_corrected_build.txt:1441:  18 | >>>     && touch /docker_persistent/persistent.file \
+  notes\openplc_corrected_build.txt:1442:  19 | >>>     && mkdir -p /docker_persistent/st_files \
+  notes\openplc_corrected_build.txt:1443:  20 | >>>     && cp /workdir/webserver/openplc.db \
+  notes\openplc_corrected_build.txt:1444:  21 | >>>         /docker_persistent/openplc.db \
+  notes\openplc_corrected_build.txt:1465:  42 | >>>     && ln -s /docker_persistent/dnp3.cfg \
+  notes\openplc_corrected_build.txt:1466:  43 | >>>         /workdir/webserver/dnp3.cfg \
+  notes\openplc_corrected_build.txt:1467:  44 | >>>     && ln -s /docker_persistent/st_files \
+  notes\openplc_corrected_build.txt:1468:  45 | >>>         /workdir/webserver/st_files \
+  notes\openplc_corrected_build.txt:1469:  46 | >>>     && ln -s /docker_persistent/active_program \
+  notes\openplc_corrected_build.txt:1470:  47 | >>>         /workdir/webserver/active_program
+  notes\openplc_corrected_build.txt:1471:  48 |     
+  notes\openplc_corrected_build.txt:1472:--------------------
+> notes\openplc_corrected_build.txt:1473:ERROR: failed to build: failed to solve: process "/bin/sh -c sed -i '2i set 
+-o pipefail' /workdir/install.sh     && 
+  notes\openplc_corrected_build.txt:1474:./install.sh docker     && test -x /workdir/start_openplc.sh     && touch 
+/docker_persistent/mbconfig.cfg     && touch 
+  notes\openplc_corrected_build.txt:1475:/docker_persistent/persistent.file     && mkdir -p 
+/docker_persistent/st_files     && cp /workdir/webserver/openplc.db 
+  notes\openplc_corrected_build.txt:1476:        /docker_persistent/openplc.db     && mv /workdir/webserver/openplc.db 
+        
+  notes\openplc_corrected_build.txt:1477:/workdir/webserver/openplc_default.db     && cp /workdir/webserver/dnp3.cfg   
+      /docker_persistent/dnp3.cfg     && 
+  notes\openplc_corrected_build.txt:1478:mv /workdir/webserver/dnp3.cfg         /workdir/webserver/dnp3_default.cfg    
+ && cp -r /workdir/webserver/st_files/.  
+  notes\openplc_corrected_build.txt:1479:       /docker_persistent/st_files/     && mv /workdir/webserver/st_files     
+    /workdir/webserver/st_files_default  
+  notes\openplc_corrected_build.txt:1480:   && cp /workdir/webserver/active_program         
+/docker_persistent/active_program     && mv 
+  notes\openplc_corrected_build.txt:1481:/workdir/webserver/active_program         
+/workdir/webserver/active_program_default     && ln -s 
+  notes\openplc_corrected_build.txt:1482:/docker_persistent/mbconfig.cfg         /workdir/webserver/mbconfig.cfg     
+&& ln -s 
+  notes\openplc_corrected_build.txt:1483:/docker_persistent/persistent.file         /workdir/webserver/persistent.file 
+    && ln -s 
+  notes\openplc_corrected_build.txt:1484:/docker_persistent/openplc.db         /workdir/webserver/openplc.db     && ln 
+-s /docker_persistent/dnp3.cfg         
+  notes\openplc_corrected_build.txt:1485:/workdir/webserver/dnp3.cfg     && ln -s /docker_persistent/st_files         
+/workdir/webserver/st_files     && ln -s 
+
+
