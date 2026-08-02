@@ -21,3 +21,6 @@
 | 17 | `17_temperature_task_configuration.png` | Shows the cyclic task and controller instance | Controller implementation |
 | 18 | `18_hysteresis_retains_off.png` | Shows 28°C retaining the previous OFF state | Controller simulation |
 | 19 | `19_hysteresis_retains_on.png` | Shows 29°C retaining the previous ON state | Controller simulation |
+| 20 | `20_temperature_program_uploaded.png` | Shows the temperature-control program uploaded to Runtime v3 | PLC deployment |
+| 21 | `21_temperature_runtime_running.png` | Confirms successful compilation and execution in OpenPLC Runtime | PLC deployment |
+| 22 | `22_modbus_port_available.png` | Confirms that the local Modbus TCP endpoint is accepting connections | Modbus communication |
