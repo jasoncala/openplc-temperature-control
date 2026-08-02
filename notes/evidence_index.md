@@ -11,3 +11,8 @@
 | 7 | `07_openplc_docker_image.png` | Confirms that the OpenPLC Runtime v3 Docker image was built successfully | Runtime installation |
 | 8 | `08_openplc_runtime_dashboard.png` | Confirms successful authentication and access to the OpenPLC Runtime v3 dashboard | Runtime installation |
 | 9 | `09_openplc_localhost_ports.png` | Shows that the Runtime web and Modbus ports are bound only to localhost | Runtime installation and security |
+| 10 | `10_boolean_variables.png` | Shows the Boolean exercise variable declarations | Structured Text learning |
+| 11 | `11_boolean_logic.png` | Shows the Boolean AND logic written in Structured Text | Structured Text learning |
+| 12 | `12_boolean_task_configuration.png` | Shows the cyclic task and Boolean program instance | Structured Text learning |
+| 13 | `13_boolean_simulation_false.png` | Demonstrates a Boolean combination correctly producing FALSE | Structured Text learning |
+| 14 | `14_boolean_simulation_true.png` | Demonstrates TRUE AND TRUE correctly producing TRUE | Structured Text learning |

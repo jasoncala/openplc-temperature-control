@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "name": "boolean_test",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "MainTask",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 0
+          }
+        ],
+        "instances": [
+          {
+            "name": "MainInstance",
+            "program": "main",
+            "task": "MainTask"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "main": [
+          "TestInput",
+          "Enable",
+          "TestOutput"
+        ]
+      }
+    }
+  }
+}
