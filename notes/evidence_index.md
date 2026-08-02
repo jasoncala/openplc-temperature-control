@@ -24,3 +24,5 @@
 | 20 | `20_temperature_program_uploaded.png` | Shows the temperature-control program uploaded to Runtime v3 | PLC deployment |
 | 21 | `21_temperature_runtime_running.png` | Confirms successful compilation and execution in OpenPLC Runtime | PLC deployment |
 | 22 | `22_modbus_port_available.png` | Confirms that the local Modbus TCP endpoint is accepting connections | Modbus communication |
+| 23 | `23_modbus_smoke_test_20.png` | Shows Python writing 20°C and reading the fan as OFF | Modbus communication |
+| 24 | `24_modbus_smoke_test_35.png` | Shows Python writing 35°C and reading the fan as ON | Modbus communication |
