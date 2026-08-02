@@ -28,3 +28,4 @@
 | 24 | `24_modbus_smoke_test_35.png` | Shows Python writing 35°C and reading the fan as ON | Modbus communication |
 | 25 | `25_validation_console.png` | Shows all nine automated tests passing with zero failures | Validation results |
 | 26 | `26_validation_csv.png` | Shows the recorded expected and actual controller states | Validation results |
+| 27 | `../results/validation_plot.png` | Visualizes temperature inputs, hysteresis thresholds, and actual fan state | Validation results |
