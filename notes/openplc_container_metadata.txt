@@ -1,0 +1,5 @@
+﻿Container: /openplc-v3
+Image: openplc-v3-local
+Running: true
+Started: 2026-08-02T01:04:24.55947398Z
+Ports: {"502/tcp":[{"HostIp":"127.0.0.1","HostPort":"1502"}],"8080/tcp":[{"HostIp":"127.0.0.1","HostPort":"8080"}]}
