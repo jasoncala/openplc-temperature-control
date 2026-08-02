@@ -26,3 +26,5 @@
 | 22 | `22_modbus_port_available.png` | Confirms that the local Modbus TCP endpoint is accepting connections | Modbus communication |
 | 23 | `23_modbus_smoke_test_20.png` | Shows Python writing 20°C and reading the fan as OFF | Modbus communication |
 | 24 | `24_modbus_smoke_test_35.png` | Shows Python writing 35°C and reading the fan as ON | Modbus communication |
+| 25 | `25_validation_console.png` | Shows all nine automated tests passing with zero failures | Validation results |
+| 26 | `26_validation_csv.png` | Shows the recorded expected and actual controller states | Validation results |

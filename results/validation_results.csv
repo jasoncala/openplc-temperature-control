@@ -1,0 +1,10 @@
+test_number,description,temperature_written,temperature_read,previous_expected_fan,expected_fan,actual_fan,elapsed_seconds,passed
+1,Establish known low state,20,20,False,False,False,0.0,True
+2,Exact fan-off threshold,27,27,False,False,False,0.0,True
+3,Hysteresis region retains OFF,28,28,False,False,False,0.0,True
+4,Exact fan-on threshold,30,30,False,True,True,0.11,True
+5,Hysteresis region retains ON,29,29,True,True,True,0.0,True
+6,Downward transition,27,27,True,False,False,0.109,True
+7,Clearly high temperature,40,40,False,True,True,0.109,True
+8,Remain ON above threshold,35,35,True,True,True,0.0,True
+9,Final shutdown,27,27,True,False,False,0.094,True
