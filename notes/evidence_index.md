@@ -16,3 +16,8 @@
 | 12 | `12_boolean_task_configuration.png` | Shows the cyclic task and Boolean program instance | Structured Text learning |
 | 13 | `13_boolean_simulation_false.png` | Demonstrates a Boolean combination correctly producing FALSE | Structured Text learning |
 | 14 | `14_boolean_simulation_true.png` | Demonstrates TRUE AND TRUE correctly producing TRUE | Structured Text learning |
+| 15 | `15_temperature_variables.png` | Shows the mapped temperature and fan variables | Controller implementation |
+| 16 | `16_temperature_logic.png` | Shows the Structured Text hysteresis logic | Controller implementation |
+| 17 | `17_temperature_task_configuration.png` | Shows the cyclic task and controller instance | Controller implementation |
+| 18 | `18_hysteresis_retains_off.png` | Shows 28°C retaining the previous OFF state | Controller simulation |
+| 19 | `19_hysteresis_retains_on.png` | Shows 29°C retaining the previous ON state | Controller simulation |
